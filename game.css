@@ -1,0 +1,187 @@
+canvas {
+	position: absolute;
+}
+
+.blueBtnOption{
+	border: 5px solid;
+	background-color: #99D9EA;
+	border-radius: 5px;
+	border-color:  #000066;
+}
+
+#gameScore{
+	font-family: "Arial";
+	position: absolute;
+	visibility: hidden;
+	font-size: 25px;
+	left: 15px;
+	top: 50px;
+	color: white;
+	z-index: 3;
+}
+
+#gameCanvas{
+	z-index: 1;
+}
+
+#uiCanvas{
+	z-index: 2;
+}
+
+#playDiv{
+	color: #000066;
+	font-family: "Times New Roman";
+	font-weight: bold;
+	font-size: 32px;
+	position: absolute;
+	left: 356px;
+	top: 433px;
+	cursor: pointer;
+	z-index: 2;
+	visibility: visible;
+}
+
+#instructionDiv{
+	color: #000066;
+	font-family: "Times New Roman";
+	font-weight: bold;
+	font-size: 32px;
+	position: absolute;
+	left: 280px;
+	top: 514px;
+	cursor: pointer;
+	z-index: 2;
+	visibility: visible;	
+}
+
+#instructionTxt{
+	color: white;
+	font-family: "Arial";
+	font-weight: bold;
+	font-size: 14px;
+	position: absolute;
+	z-index: 2;
+	visibility: visible;	
+}
+
+#homePage{
+	color: #000066;
+	font-family: "Times New Roman";
+	font-weight: bold;
+	font-size: 24px;
+	position: absolute;
+	left: 20px;
+	top: 530px;
+	cursor: pointer;
+	z-index: 2;
+	visibility: hidden;
+}
+
+#playBtn{
+	color: #000066;
+	font-family: "Times New Roman";
+	font-weight: bold;
+	font-size: 24px;
+	position: absolute;
+	left: 630px;
+	top: 530px;
+	cursor: pointer;
+	z-index: 2;
+	visibility: hidden;	
+}
+
+#pausedText{
+	color: #99D9EA;
+	font-family: "Times New Roman";
+	font-weight: bold;
+	font-size: 50px;
+	position: absolute;
+	left: 300px;
+	top: 400px;
+	z-index: 5;
+	visibility: hidden;		
+}
+
+#gameOver{
+	background-color: #C0C0C0;
+	font-family: "Times New Roman";
+	font-size: 20px;
+	left: 284px;
+	top: 50px;
+	position: absolute;
+	text-align: center;
+	z-index: 5;
+	visibility: hidden;	
+}
+
+#gameOverTxt{
+	color: #990033;
+}
+
+#scoreTxt{
+	font-size: 24px;
+	font-weight: bold;
+}
+
+#bonusTxt{
+	font-size: 24px;
+	font-weight: bold;
+}
+
+#finalScoreTxt{
+	font-size: 24px;
+	font-weight: bold;
+}
+
+#playAgain{
+	color:#000066;
+	text-align: center;
+	cursor: pointer;
+	visibility: hidden;
+}
+
+#quit{
+	color:#000066;
+	text-align: center;
+	cursor: pointer;
+	visibility: hidden;
+}
+
+#quitGame{
+	background-color: #C0C0C0;
+	font-weight: bold;
+	font-family: "Times New Roman";
+	font-size: 20px;
+	left: 350px;
+	top: 220px;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	text-align: center;
+	z-index: 5;
+	visibility: hidden;	
+	width: 150px;	
+	height: 170px;
+}
+
+#quitYes{
+	color: #000066;
+	text-align: center;
+	cursor: pointer;
+	visibility: hidden;
+}
+
+#quitNo{
+	color: #000066;
+	text-align: center;
+	cursor: pointer;	
+	visibility: hidden;
+}
+
+h2{
+	text-align: center;
+}
+
+
+
+

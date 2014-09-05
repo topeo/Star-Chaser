@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+    lang="en">
+
+	<head> 
+		<title> Star Chaser </title>
+		<script src = "simpleGame.js"> </script>
+		<link rel = "stylesheet" type = "text/css" href = "game.css"></link>
+	</head>
+
+	<body>
+		<canvas id = "uiCanvas" width = "800" height = "600"></canvas>
+
+		<div id = "gameScore"> 
+			<u> Score </u> 
+		</div>
+
+		<div class = "blueBtnOption" id = "playDiv">
+			&nbsp;PLAY&nbsp;
+		</div>
+
+		<div class = "blueBtnOption" id = "instructionDiv">
+			&nbsp;INSTRUCTIONS&nbsp;
+		</div>
+
+		<div class = "blueBtnOption" id = "homePage">
+			&nbsp;HOME PAGE&nbsp;
+		</div>
+
+		<div class = "blueBtnOption" id = "playBtn">
+			&nbsp;PLAY GAME&nbsp;
+		</div>
+
+		<div id = "pausedText">
+			PAUSED
+		</div>
+
+		<div class = "blueBtnOption" id = "gameOver" align = "center">
+			<div id = "gameOverTxt">
+				<h2>&nbsp;&nbsp; GAME OVER &nbsp;&nbsp;<h2>
+			</div>
+
+			<div id = "gameOverScore">
+				<u>Score</u>
+				<div id = "scoreTxt">
+				</div>
+			</div>
+
+			<br>		
+
+			<div id = "bonus">
+				<u>Bonus</u>
+				<br>
+					&nbsp;&nbsp;Rounded to nearest whole number.&nbsp;&nbsp;
+				<br>
+				(Score/Time in seconds) x 10
+				<br>
+				<div id = "bonusTxt">
+					0
+				</div>
+			</div>
+
+			<br>
+
+			<div id = "finalScore">
+				<u>FINAL SCORE</u>	
+				<br>
+				<div id = "finalScoreTxt">
+				</div>
+			</div>
+
+			<br>
+
+			<hr>
+
+			<br>
+
+			<span class = "blueBtnOption" id = "playAgain">
+				<b>&nbsp; PLAY AGAIN &nbsp;</b>
+			</span>
+
+			<br>
+			<br>
+
+			<span class = "blueBtnOption" id = "quit">
+				<b>&nbsp; QUIT &nbsp;</b>
+			</span>
+
+			<br>
+			<br>
+
+		</div>
+
+
+		<div class = "blueBtnOption" id = "quitGame" align = "center">
+			<br>
+			QUIT GAME?
+
+			<br>
+			<br>
+			
+			<span class = "blueBtnOption" id = "quitYes">
+				<b>&nbsp; YES &nbsp;</b>
+			</span>
+
+			<br>
+			<br>
+
+			<span class = "blueBtnOption" id = "quitNo">
+				<b>&nbsp; NO &nbsp;</b>
+			</span>
+
+			<br>
+			<br>
+		</div>
+
+		<script src = "game.js"> </script>
+
+	</body>
+</html>
