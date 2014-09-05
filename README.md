@@ -6,4 +6,4 @@ As new features are addeded, more changes and commits will come in the future.
 
 To access the current version of the game, click on this URL: http://topeo.github.io/Star-Chaser/
 
-NOTE: The game is designed to be viewed on a desktop/laptop computer.
+**NOTE**: The game is designed to be viewed on a desktop/laptop computer.
