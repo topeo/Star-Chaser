@@ -2,7 +2,7 @@ Star-Chaser
 ===========
 This repository contains the files for Star Chaser, a 2D platform game made using HTML5 Canvas, JavaScript, and bits of a simple game engine (very aptly) named simpleGame.js.
 
-As new features are addeded, more changes and commits will come in the future.
+As the code gets cleaned up and new features are added, more changes and commits will come in the future.
 
 To access the current version of the game, click on this URL: http://topeo.github.io/Star-Chaser/
 
